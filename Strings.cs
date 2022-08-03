@@ -25,7 +25,7 @@ using System.Text;
             public static void build(){
                 
                 StringBuilder addWord = new StringBuilder ("Hello ");
-                addWord.Append (" Myself Chinmay Daund");
+                addWord.Append ("Myself Chinmay Daund");
                 Console.WriteLine(addWord);
 
             }
