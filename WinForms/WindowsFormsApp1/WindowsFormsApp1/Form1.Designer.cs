@@ -34,12 +34,13 @@
             // 
             // btnClickThis
             // 
-            this.btnClickThis.Location = new System.Drawing.Point(520, 264);
+            this.btnClickThis.Location = new System.Drawing.Point(533, 179);
             this.btnClickThis.Name = "btnClickThis";
             this.btnClickThis.Size = new System.Drawing.Size(75, 23);
             this.btnClickThis.TabIndex = 0;
             this.btnClickThis.Text = "Click This";
             this.btnClickThis.UseVisualStyleBackColor = true;
+            this.btnClickThis.Click += new System.EventHandler(this.btnClickThis_Click);
             // 
             // lblHelloWorld
             // 
@@ -49,6 +50,7 @@
             this.lblHelloWorld.Size = new System.Drawing.Size(35, 13);
             this.lblHelloWorld.TabIndex = 1;
             this.lblHelloWorld.Text = "label1";
+            this.lblHelloWorld.Click += new System.EventHandler(this.lblHelloWorld_Click);
             // 
             // Form1
             // 

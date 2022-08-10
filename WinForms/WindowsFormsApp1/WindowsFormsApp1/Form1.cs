@@ -19,6 +19,16 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           
+        }
+
+        private void lblHelloWorld_Click(object sender, EventArgs e)
+        {
+             
+        }
+
+        private void btnClickThis_Click(object sender, EventArgs e)
+        {
             lblHelloWorld.Text = "Hello World!";
         }
     }
