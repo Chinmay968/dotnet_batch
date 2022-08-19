@@ -12,7 +12,7 @@ namespace Assessment
             List<string> datalist = new List<string>();
             string path = @"C:\Users\chinmay.daund\Documents\GitHub\dotnet_batch\Data.txt";
             datalist = File.ReadAllLines(path).ToList();
-            Console.Write("1.View 2.Insert 3.Update 4.Delete \nENter your choice number: ");
+            Console.Write("1.View 2.Insert 3.Update 4.Delete \nEnter your choice number: ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
