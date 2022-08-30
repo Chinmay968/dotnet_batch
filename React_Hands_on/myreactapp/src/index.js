@@ -5,13 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Car from './car';
 import Engine from './engine';
+import FunctionalSchool from './FunctionalSchool';
+import ClassSchool from './ClassSchool';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Car />
-    <Engine />
+
+    <ClassSchool />,
+    <FunctionalSchool />
   </React.StrictMode>
 );
 

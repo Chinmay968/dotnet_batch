@@ -5,7 +5,7 @@ class Bike extends React.Component
     constructor(props)
     {
         super(props);
-        this.state = {brand : "Yamaha" ,         bikename : "Yamaha MT-15" ,         model : "MT-15" };
+        this.state = {brand :"Yamaha",bikename :"Yamaha MT-15",model :"MT-15"};
         
     }
 
